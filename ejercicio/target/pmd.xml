@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.5.1" timestamp="2018-04-18T22:48:37.391">
+<file name="/home/mreyesba/Desktop/ADSI/tareaExtra2/ejercicio/src/main/java/mx/com/itam/adsi/ejercicio/Ejercicio.java">
+<violation beginline="78" endline="80" begincolumn="49" endcolumn="49" rule="CollapsibleIfStatements" ruleset="Basic" package="mx.com.itam.adsi.ejercicio" class="Ejercicio" method="lineasRepetidas" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+<violation beginline="115" endline="117" begincolumn="71" endcolumn="41" rule="EmptyIfStmt" ruleset="Empty Code" package="mx.com.itam.adsi.ejercicio" class="Ejercicio" method="lineasComentarios" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="152" endline="156" begincolumn="41" endcolumn="41" rule="CollapsibleIfStatements" ruleset="Basic" package="mx.com.itam.adsi.ejercicio" class="Ejercicio" method="cuentaComentariosVacios" externalInfoUrl="https://pmd.github.io/pmd-5.5.1/pmd-java/rules/java/basic.html#CollapsibleIfStatements" priority="3">
+These nested if statements could be combined
+</violation>
+</file>
+</pmd>
