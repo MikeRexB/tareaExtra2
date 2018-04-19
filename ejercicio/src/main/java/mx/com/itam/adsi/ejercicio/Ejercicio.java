@@ -191,14 +191,14 @@ public class Ejercicio {
 	public static String eliminarComillas(String str){
 		//separamos el string en varios strings a traves de las comillas
 		String[] linea = str.split('"'+"");
-		String respuesta = "";
+		StringBuilder respuesta = new StringBuilder();
 		
 		//incluimos las posiciones pares solamente
 		for(int i = 0; i < linea.length; i+=2){
-			respuesta+=linea[i];
+			respuesta.append(linea[i]);
 		}
 		
-		return respuesta; 
+		return respuesta.toString(); 
 	}
 
 	public static void main(String...argv){
